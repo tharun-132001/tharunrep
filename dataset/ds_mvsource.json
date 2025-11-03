@@ -13,7 +13,7 @@
 				"fileName": "movie.txt",
 				"container": "input-folder"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "\t",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
