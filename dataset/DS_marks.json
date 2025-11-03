@@ -1,0 +1,32 @@
+{
+	"name": "DS_marks",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "stdname",
+				"type": "varchar"
+			},
+			{
+				"name": "stdmarks",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "marks"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

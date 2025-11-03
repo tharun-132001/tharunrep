@@ -1,0 +1,9 @@
+{
+	"name": "tharun-instance",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "367eb4d4-7f38-466d-a2a4-f6faa5fbf68e",
+		"tenantId": "a5ce7f6e-188e-4355-afc7-936c871ca7d3"
+	}
+}
