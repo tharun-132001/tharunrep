@@ -28,9 +28,10 @@
 					},
 					"sink": {
 						"type": "SqlServerSink",
-						"preCopyScript": "delete mvs2\nwhere hero = shourya\n",
+						"preCopyScript": "delete dbo.mvs2\nwhere hero = 'shourya'\n",
 						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
+						"sqlWriterUseTableLock": false,
+						"tableOption": "autoCreate"
 					},
 					"enableStaging": false,
 					"translator": {
