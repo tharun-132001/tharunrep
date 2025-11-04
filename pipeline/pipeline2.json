@@ -33,8 +33,7 @@
 							"type": "Expression"
 						},
 						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false,
-						"tableOption": "autoCreate"
+						"sqlWriterUseTableLock": false
 					},
 					"enableStaging": false,
 					"translator": {
