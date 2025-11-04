@@ -28,7 +28,7 @@
 					},
 					"sink": {
 						"type": "SqlServerSink",
-						"preCopyScript": "\n",
+						"preCopyScript": "delete movies2\nwhere hero = 'shourya'\n",
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false,
 						"tableOption": "autoCreate"
