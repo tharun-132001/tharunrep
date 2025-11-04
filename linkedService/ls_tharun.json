@@ -6,7 +6,7 @@
 		"type": "AzureBlobStorage",
 		"typeProperties": {
 			"connectionString": "DefaultEndpointsProtocol=https;AccountName=tharunstore;EndpointSuffix=core.windows.net;",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZCRDdBNjIxLTY0MjMtNDgxRi1CODIwLTdDOTkyQTc3QTEzN18wYWVmZjMxMi0xYWNkLTQ2ZGYtYjJmNi04NmE0ODliMDUzYTAiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZCRDdBNjIxLTY0MjMtNDgxRi1CODIwLTdDOTkyQTc3QTEzN19jNWMzNGZjYS02MzZhLTQwZDItYmJmYi1hOTFkZDg4NWJjYTgiDQp9"
 		},
 		"connectVia": {
 			"referenceName": "tharun-ir",
