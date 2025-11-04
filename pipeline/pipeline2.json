@@ -28,10 +28,6 @@
 					},
 					"sink": {
 						"type": "SqlServerSink",
-						"preCopyScript": {
-							"value": "concat('DELETE dbo.movies2 WHERE hero = 'shourya'', pipeline2().parameters.shourya, ''';')",
-							"type": "Expression"
-						},
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false
 					},
