@@ -1,0 +1,28 @@
+{
+	"name": "mvs2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_tharun",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "movie1.txt",
+				"container": "input-folder"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "no\thero\tmovie\theroine\tverdict\tstartdate\tenddate",
+				"type": "String"
+			}
+		]
+	}
+}
