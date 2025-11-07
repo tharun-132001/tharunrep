@@ -116,7 +116,7 @@
 									"type": "DelimitedTextSource",
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
-										"recursive": true,
+										"fileListPath": "employees-cont",
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
