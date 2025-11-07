@@ -1,0 +1,16 @@
+{
+	"name": "ds_sqlloop",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "looptable",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "empdata"
+		}
+	}
+}

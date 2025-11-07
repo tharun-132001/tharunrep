@@ -1,0 +1,22 @@
+{
+	"name": "ds_loopsource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_tharun",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "employees-cont"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
